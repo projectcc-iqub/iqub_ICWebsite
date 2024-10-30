@@ -1,5 +1,52 @@
 /* -------- Aviation styles -------- */
 
+
+.divTopNavigationAviation {
+    position: fixed;
+    top: 0;
+    /* left: 1%;
+    right: 1%; */
+    /* text-align: center; */
+    /* height: 96px; */
+    background: var(--black);
+    z-index: 1;
+    vertical-align: middle;
+    width: 100%;
+    overflow: auto;
+
+}
+
+.divTopNavigationAviation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+    max-width: fit-content;
+    margin-inline: auto;
+    /* background-color: #333; */
+
+}
+
+.divTopNavigationAviation li {
+    float: left;
+    max-width: fit-content;
+    margin-inline: auto;
+    /* width: 25%; */
+    /* width: 150px; */
+
+}
+
+.divTopNavigationAviation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
 .divTopNavigationAviation img {
     width: 90%;
 }
@@ -90,65 +137,6 @@
     flex-shrink: 0;
 }
 
-
-.divTopNavigationAviation {
-    position: fixed;
-    top: 0;
-    /* left: 1%;
-    right: 1%; */
-    /* text-align: center; */
-    /* height: 96px; */
-    background: var(--black);
-    z-index: 1;
-    vertical-align: middle;
-    width: 100%;
-    overflow: auto;
-
-}
-
-.divTopNavigationAviation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 20px 0;
-    max-width: fit-content;
-    margin-inline: auto;
-    /* background-color: #333; */
-
-}
-
-.divTopNavigationAviation li {
-    float: left;
-    max-width: fit-content;
-    margin-inline: auto;
-    /* width: 25%; */
-    /* width: 150px; */
-
-}
-
-.divTopNavigationAviation li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    text-transform: uppercase;
-
-}
-
-.divTopNavigationAviation li.active a {
-    color: var(--active) !important;
-}
-
-/* .divTopNavigationAviation li a:hover:not(.active) {
-    color: var(--active);
-  } */
-
-/* .divTopNavigationAviation li a:hover:not(.active) {
-    color: var(--active);
-  } */
 
 .txtActive {
     color: var(--active) !important;

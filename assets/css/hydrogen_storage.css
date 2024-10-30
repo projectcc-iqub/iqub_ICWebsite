@@ -1,0 +1,244 @@
+/* --------  styles -------- */
+
+
+.divTopNavigation {
+    position: fixed;
+    top: 0;
+    /* left: 1%;
+    right: 1%; */
+    /* text-align: center; */
+    /* height: 96px; */
+    background: var(--black);
+    z-index: 1;
+    vertical-align: middle;
+    width: 100%;
+    overflow: auto;
+
+}
+
+.divTopNavigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+    max-width: fit-content;
+    margin-inline: auto;
+    /* background-color: #333; */
+
+}
+
+.divTopNavigation li {
+    float: left;
+    max-width: fit-content;
+    margin-inline: auto;
+    /* width: 25%; */
+    /* width: 150px; */
+
+}
+
+.divTopNavigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.divTopNavigation ul li a {
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.divTopNavigation ul li a.active {
+    color: var(--active);
+}
+
+/* @media (min-width: 768px) {
+
+    .divTag {}
+} */
+.divTopContent {
+    height: 300px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    /* position: relative; */
+    /* justify-content: center; */
+}
+
+.divTopContent .divTag {
+    position: absolute;
+    margin: 5% 5%;
+    top: 100px;
+    width: 90%;
+}
+
+.divTopContent .divTag p {
+    font-size: 22px;
+    line-height: normal;
+    font-family: Instrument Sans;
+    font-weight: 500;
+}
+
+.divTopContent .divTag h2 {
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.divOverview {
+    padding: 1% 5%;
+}
+
+.divOverview h2 {
+    font-size: 23px;
+    line-height: normal;
+    text-align: center;
+
+    font-family: Instrument Sans;
+    font-weight: 600;
+}
+
+.divOverview .divInfo {
+    display: flex;
+    margin-top: 40px;
+}
+
+.divOverview .divInfo img {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.divOverview .divInfo p {
+    display: flex;
+    font-size: 16px;
+    font-family: Instrument Sans;
+    font-weight: 400;
+    text-align: left;
+    margin: 0 0 0 2rem;
+    align-self: center;
+}
+
+.divOverview .divFeatures {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.divFeatures .col,
+.divFeatures .colhead {
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    align-content: center;
+    margin: 1rem;
+    /* background-color: var(--bggrey); */
+    border: solid 1px var(--bggrey);
+    border-radius: 26px;
+    padding: 1rem;
+}
+
+.divOverview .divFeatures .desc {
+    font-size: 16px !important;
+    font-family: Instrument Sans;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.divOverview .divFeatures h3 {
+    color: var(--txtgrey);
+    font-size: 18px !important;
+    font-family: Instrument Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    z-index: 1;
+    line-height: normal;
+}
+
+.divFeatures .col h2 {
+    font-size: 16px;
+    font-family: Instrument Sans;
+    font-weight: 600;
+    line-height: normal;
+    z-index: 1;
+    text-align: left;
+
+}
+
+.divFeatures .col p {
+    color: var(--txtgrey);
+    font-size: 12px !important;
+    font-family: Instrument Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    line-height: normal;
+
+}
+
+.divVision {
+    text-align: center;
+    margin: 0 5%;
+}
+
+.divVision p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.divVision h3 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.divVision button {
+    background: var(--bggrey);
+    border: solid 1px var(--black);
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+
+}
+
+@media (min-width:768px) {
+    .divTopContent .divTag {
+        margin: 5% 10%;
+        top: 100px;
+        width: 80%;
+    }
+
+    .divTopContent .divTag p {
+        font-size: 36px;
+    }
+
+    .divTopContent .divTag h2 {
+
+        font-size: 82px;
+    }
+
+    /* .sectionVision img {
+        margin: 5% 10% !important;
+        width: 80% !important;
+    }
+
+    .divVision div {
+        width: 70%;
+    } */
+}
+
+/* ------------------------------- */
