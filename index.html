@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menon-Ventures</title>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/bootstrap_custom.css">
+    <link href='https://fonts.googleapis.com/css?family=Instrument Sans' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <div class="homePage">
+        <!-- Button to toggle navigation -->
+        <!-- <button id="menu-toggle">☰ Toggle Navigation</button> -->
+        <img id="menu-toggle" src="images/vector.png" />
+
+        <div class="divLogo">
+            <img id="logo" src="images/menon-logo.png" />
+            <span>menon and menon ltd</span>
+        </div>
+
+        <!-- <button id="menu-toggle">
+        <span class="plus"></span> <!-- This will be the plus icon initially -->
+        <!-- </button>  -->
+
+        <!-------------- Vertical navigation ------------->
+        <nav id="vertical-nav">
+            <ul id="nav-ul-1" class="active">About us
+
+                <li><a href="#aboutus" class="nav-link active" tag="1">Who we are</a></li>
+                <li><a href="#ourProjects" class="nav-link" tag="1">Our Projects</a></li>
+            </ul>
+
+            <ul id="nav-ul-2" class="">Culture & Jobs
+
+                <li><a href="#ourTeam" class="nav-link" tag="2">Our Team</a></li>
+                <li><a href="#culture" class="nav-link" tag="2">Culture</a></li>
+                <li><a href="#jobs" class="nav-link" tag="2">Jobs</a></li>
+            </ul>
+        </nav>
+        <!------------------------------------------------->
+
+        <!------------------ 1st Section ------------------>
+        <section id="aboutus">
+            <h1><span class="txtActive">Engineering Tomorrow</span> with Deep-Tech Mastery</h1>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-4">
+
+                        <p>Building on over 6 Decades of excellence in Niche automotive castings and world-class
+                            manufacturing, Menon and Menon Ltd is now expanding our expertise to new horizons—developing
+                            next-generation general aircraft, seamless user experience apps, Green Energy and many more.
+                        </p>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                        <p>With our commitment to innovation, quality, and a passionate team, we’re ready to soar into
+                            the
+                            future.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <img id="img1" src="images/img1.png" class="imgLandscape" />
+
+        </section>
+        <!------------------------------------------------->
+
+        <!------------------ 2nd Section ------------------>
+        <section id="ourProjects">
+            <h1>Our Projects</h1>
+
+            <div class="tabs-animated">
+
+                <!-- Nav tabs -->
+                <ul id="tabProjects" class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active" tag="aviation">
+                        <a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab" >Next - Generation
+                            General Aviation</a>
+                        <hr align="left">
+                    </li>
+                    <li role="presentation" tag="coucou">
+                        <a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab" >CouCou!
+                            Culinary Empowerment.</a>
+                        <hr align="left">
+                    </li>
+                    <li role="presentation" tag="h2storage">
+                        <a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab" >Green Energy -
+                            Hydrogen Storage</a>
+                        <hr align="left">
+                        
+                        <!-- onclick="javascript:chooseProject(3)" -->
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="tab1" >
+                        <img id="img1" src="images/imgAvaition.png" class="imgLandscape" />
+                        <p>A project redefining personal aviation, with a focus on safety, improved efficiency, and
+                            universal accessibility.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="tab2">
+                        <img id="img1" src="images/imgCoucou.png" class="imgLandscape" />
+                        <p>An AI-powered platform using interactive multimedia to empower home cooks to master cooking
+                            skills with confidence and ease.</p>
+
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="tab3">
+                        <img id="img1" src="images/imgGreenenergy.png" class="imgLandscape" />
+                        <p>A project advancing clean hydrogen energy, with a mission to address the challenges of
+                            cryogenic
+                            hydrogen storage for a sustainable, greener future.</p>
+
+                    </div>
+                </div>
+                <div class="textAlignLeft">
+                    <a href="javascript:void(0)" onclick="javascript:openSitePage()" aria-controls="tab1" class="btnLink" role="button">Visit
+                        Site <img id="img1" src="images/rightarrow.png" width="7" /> </a>
+                </div>
+
+            </div>
+
+        </section>
+        <!------------------------------------------------->
+
+        <section id="ourTeam">
+            <h4>OUR TEAM</h4>
+            <p>We are a dedicated team of passionate professionals, including graduates from IIT, IIM, and esteemed
+                universities worldwide, guided by industry veterans with over 40 years of international experience.
+                Driven
+                by creativity and excellence, we strive to deliver innovative solutions that inspire, empower, and make
+                a
+                lasting impact.</p>
+            <img id="img1" src="images/imgTeam.png" class="imgLandscape" />
+        </section>
+
+
+        <section id="culture" class="divInternal">
+            <h6>MISSION</h6>
+            <p>Combining creativity and expertise, we tackle today’s challenges with impactful solutions. We lead
+                with
+                integrity and innovation, offering sustainable, empowering approaches that drive a positive change.
+            </p>
+
+            <div class="image-wrapper">
+                <div id="img1"><span class="spnactive" /></span><img src="images/imgmission1.png" class="imgAnimated" />
+                </div>
+                <div id="img2"><span class="spnactive"></span><img src="images/imgmission2.png" class="imgAnimated" />
+                </div>
+            </div>
+
+            <h2>We're on the lookout for <span class="txtActive"> talented individuals </span> to join our dynamic
+                dream!</h2>
+        </section>
+
+        <section id="jobs">
+            <div class="divPositions">
+                <h2>Browse <span class="txtActive">3</span> open positions</h2>
+
+                <div>
+                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('1')" />
+                        Product
+                        Manager |
+                        Mumbai/Kolhapur.</p>
+                    <div id="divJd1" class="jd"></div>
+                </div>
+                <div>
+                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('2')" />
+                        Manager
+                        –Strategy
+                        | Mumbai / Kolhapur</p>
+                    <div id="divJd2" class="jd"></div>
+                </div>
+                <div>
+                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('3')" />
+                        Marketing Manager
+                        | Mumbai / Kolhapur</pl̥>
+                    <div id="divJd3" class="jd"></div>
+                </div>
+
+                <p class="marginTop20">Show More <img src="images/down_arrow.png" /></p>
+
+            </div>
+
+        </section>
+
+
+    </div>
+    </section>
+    <div id="divFooter"></div>
+
+    </div>
+    <script src="assets/js/scripts.js"></script>
+    <script>
+        $("#divJd1").load("screens/jd1.html");
+        $("#divJd2").load("screens/jd2.html");
+        $("#divJd3").load("screens/jd3.html");
+        $("#divFooter").load("screens/footer.html");
+    </script>
+</body>
+
+</html>

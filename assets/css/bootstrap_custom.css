@@ -1,0 +1,75 @@
+/* Bootstrap custom page styles */
+
+.container {
+  margin-top: 20px;
+  margin: 0 3%;
+  width: 90% !important;
+}
+
+.col-sm-4 {
+  margin: 1%;
+}
+
+.tabs-animated .nav-tabs {
+  margin-left: 20px;
+  border-bottom: none !important;
+}
+
+.tabs-animated .nav-tabs>li {
+
+  width: 32% !important;
+  text-align: left !important;
+  margin-right: 1%;
+}
+
+.tabs-animated .nav-tabs>li>a {
+  line-height: 1.42857143;
+  border: none !important;
+  color: var(--white) !important;
+  text-overflow: ellipsis;
+  max-lines: 2;
+}
+
+.tabs-animated .nav-tabs>li>a :active {
+  /* margin-right: 2px;
+  line-height: 1.42857143; */
+  color: var(--active) !important;
+}
+
+.tabs-animated .nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:hover {
+  color: var(--active) !important;
+  cursor: pointer;
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom-color: transparent;
+}
+
+.tabs-animated .nav-tabs hr {
+  width: 20%;
+  height: 2px;
+  background-color: var(--active);
+  border: 0;
+  margin: 0 0 0 10px;
+  display: none;
+}
+
+.tabs-animated .nav-tabs>li.active>hr {
+  display: block;
+}
+
+
+@media (min-width: 768px) {
+  .col-sm-4 {
+    -ms-flex: 0 0 48% !important;
+    flex: 0 0 48% !important;
+    max-width: 48% !important;
+    width: 48%;
+  }
+
+  .tabs-animated .nav-tabs>li {
+    width: 225px !important;
+  }
+}

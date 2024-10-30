@@ -1,0 +1,475 @@
+.coucouBody {
+    margin: 0 2% !important;
+}
+
+.coucouBody p {
+    text-align: center !important;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word
+}
+
+.imgCoucou {
+    width: 100%;
+    position: absolute;
+    top: -5%;
+    left: 0;
+    opacity: 0.20;
+    border-radius: 9999px;
+}
+
+.divCoucouHeader {
+    /* width: 100%; */
+    /* position: absolute; */
+    width: 100% !important;
+    /* max-width: fit-content; */
+    margin-inline: auto;
+    /* max-width: fit-content; */
+    /* text-align: left; */
+    /* top: 30%;
+    left: 10%; */
+    text-align: center;
+    /* width: 783px; */
+    margin: 10% 0;
+}
+
+.divCoucouHeader h2 {
+
+    color: var(--yellow);
+    font-size: 56px;
+    font-family: Meditative;
+    font-weight: 400;
+    line-height: 38px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.divCoucouHeader .coucoutag {
+    font-size: 46px;
+    font-family: Kaisei Decol;
+    font-weight: 700;
+    line-height: 52px;
+    word-wrap: break-word"
+
+}
+
+.divCoucouHeader button {
+    width: fit-content;
+    color: black;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 600;
+    background: var(--yellow) !important;
+    border-radius: 10px;
+    margin-top: 10px;
+    /* padding: 5px; */
+}
+
+.divCoucouHeader .divRatings {
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 600;
+    margin: 10px 0 5px 0;
+}
+
+
+.divCoucouHeader .divRatings img {
+    padding: 5px 7px 10px;
+}
+
+#sectionCoucouTag h2 {
+
+    text-align: center;
+    font-size: 46px;
+    font-family: Kaisei Decol;
+    font-weight: 700;
+    line-height: 56px;
+    word-wrap: break-word
+}
+
+
+.coucouBody h3 {
+    text-align: center;
+    /* color: var(--txtRed); */
+    font-size: 46px;
+    font-family: Kaisei Decol;
+    font-weight: 700;
+    line-height: 52px;
+    word-wrap: break-word
+}
+
+
+#sectionCoucouCommunity .divImages {
+    gap: 1rem;
+    height: 220px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 
+.scrollable-container {
+    width: 100%; 
+    height: 300px; 
+    overflow: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-grid img {
+    width: 100px; 
+    margin: 10px; 
+} */
+
+/* #sectionCoucouCommunity .divImages div {
+    justify-content: center;
+    align-items: center;
+} */
+
+#sectionCoucouCommunity .image-grid::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+#sectionCoucouCommunity img {
+    width: 130px;
+    height: 178px;
+    /* left: 346px; */
+    /* top: 0px; */
+    /* position: absolute; */
+    border-radius: 16px;
+}
+
+/* #sectionCoucouCommunity .img1 {
+    left: 140px;
+    top: 0px;
+} */
+
+#sectionCoucouCommunity .img1,
+#sectionCoucouCommunity .img3 {
+
+    margin-top: 26px;
+}
+
+#sectionCoucouCommunity .img5 {
+
+    margin-top: -26px;
+}
+
+#sectionCoucouDiscovery .divImages {
+
+    /* position: relative; */
+
+    gap: 1rem;
+    /* padding: 0 0.25rem; */
+    /* height: 220px; */
+    /* overflow-y: scroll; */
+    /* scrollbar-width: none; */
+    -ms-overflow-style: none;
+    /* justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 10%;
+    position: relative;
+}
+
+#sectionCoucouDiscovery img {
+    /* width: 25%; */
+    height: 160px;
+}
+
+#sectionCoucouDiscovery .img1 {
+
+    margin-top: 20%;
+    width: 50% !important;
+    margin-left: -10%;
+    z-index: 1;
+}
+
+#sectionCoucouDiscovery .img2 {
+    margin-top: 5%;
+    margin-left: -10%;
+
+}
+
+#sectionGamesRewards {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 5%; */
+
+}
+
+.divIcons {
+    /* display: flex; */
+    flex-wrap: wrap;
+    margin-left: 10px;
+    width: 50%;
+}
+
+.divIcons img {
+    width: 103px;
+    height: 100px;
+    margin: 0.5rem;
+    border: solid 1px;
+    padding: 15px;
+    border-radius: 20px;
+    border-color: var(--yellow);
+}
+
+.divIcons .col1 {
+    margin-top: 5rem !important;
+}
+
+/* .divIcons .col2 img:last-child {
+    margin-top: -9rem !important;
+} */
+.divIcons .col1 img:first-child {
+    border-color: var(--pink) !important;
+    /* margin-top: 10rem !important; */
+
+}
+
+.divIcons .col2 img:last-child {
+    border-color: var(--pink) !important;
+    /* margin-top: 5rem; */
+}
+
+.divInfo h3,
+.divInfo p {
+    text-align: left !important;
+}
+
+.divInfo p {
+    width: 100%;
+}
+
+.divInfo {
+    width: 50%;
+}
+
+.divInfo img {
+    width: 85%;
+    margin-top: -20%;
+    margin-left: 15%;
+}
+
+.imgLandscapeCoucou {
+    width: 80%;
+    /* top: 161px; */
+    /* Left: 23px; */
+    margin-top: 30px;
+}
+
+#sectionNewsAndBlogs .divImages {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#sectionNewsAndBlogs .divImages img {
+    height: 230px;
+    margin: 1rem;
+}
+
+#sectionNewsAndBlogs .divImages img:last-child {
+    height: 150px;
+}
+
+#sectionContactus {
+    margin-top: 20px;
+}
+
+#sectionContactus p {
+    margin-bottom: 50px;
+}
+
+#sectionContactus .divConnect {
+    margin-top: 30px !important;
+}
+
+#sectionContactus a {
+    color: var(--white);
+}
+
+#sectionContactus .divConnect img {
+    margin: 1rem;
+}
+
+.divFooter p {
+
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.divFooter div {
+    margin-bottom: 5%;
+}
+
+.imgStore {
+    width: 300px;
+}
+
+@media (min-width:580px),
+(min-width:768px) {
+
+    .imgCoucou {
+        top: -30%;
+    }
+
+
+    /* .coucouBody {
+        margin: 0 10% !important;
+        text-align: center;
+    } */
+    #sectionCoucouCommunity .divImages {
+        height: 368px;
+        margin: 20px 10%;
+
+    }
+
+    #sectionCoucouCommunity img {
+        width: 220px;
+        height: 300px;
+    }
+
+    #sectionCoucouCommunity .img1,
+    #sectionCoucouCommunity .img3 {
+        /* left: 0px; */
+        /* top: 26px; */
+        margin-top: 56px;
+    }
+
+    #sectionCoucouCommunity .img5 {
+        /* left: 0px; */
+        /* top: 26px; */
+        margin-top: -56px;
+    }
+
+    #sectionCoucouDiscovery img {
+        /* width: 25%; */
+        height: 220px;
+    }
+
+    #sectionGamesRewards {
+        display: flex;
+        flex-direction: row;
+        /* margin-left: 15%; */
+    }
+
+    .divIcons img {
+        width: 200px;
+        height: 197px;
+    }
+
+    #sectionGamesRewards {
+        margin-right: 1%;
+    }
+
+    .divInfo img {
+        width: 100%;
+        margin-top: -30%;
+        margin-left: 15%;
+    }
+
+    .imgLandscapeCoucou {
+        width: 60%;
+    }
+
+    #sectionNewsAndBlogs .divImages img {
+        height: 280px;
+    }
+
+    #sectionNewsAndBlogs .divImages img:last-child {
+        height: 180px;
+    }
+    
+.imgStore {
+    width: 400px;
+}
+}
+
+@media (min-width:1120px) {
+
+    .imgCoucou {
+        top: -110% !important;
+    }
+
+    .divCoucouHeader {
+        width: 70% !important;
+        margin: 0 15%;
+    }
+
+    .coucouBody {
+        margin: 0 5% !important;
+    }
+
+    #sectionCoucouCommunity .divImages {
+        height: 422px !important;
+        margin: 20px 10%;
+    }
+
+    #sectionCoucouCommunity img {
+        width: 334px !important;
+        height: 406px !important;
+
+    }
+
+    #sectionCoucouCommunity .img1,
+    #sectionCoucouCommunity .img3 {
+        /* left: 0px; */
+        /* top: 26px; */
+        margin-top: 86px;
+    }
+
+    #sectionCoucouCommunity .img5 {
+        /* left: 0px; */
+        /* top: 26px; */
+        margin-top: -86px;
+    }
+
+    #sectionCoucouDiscovery img {
+        /* width: 25%; */
+        height: 400px;
+    }
+
+    #sectionGamesRewards {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+    }
+
+    .divIcons img {
+        width: 200px;
+        height: 197px;
+    }
+
+    #sectionGamesRewards {
+        margin-right: 10%;
+    }
+
+    #sectionNewsAndBlogs .divImages img {
+        height: 350px;
+    }
+
+    #sectionNewsAndBlogs .divImages img:last-child {
+        height: 250px;
+    }
+}
+
+/* ------------------------------- */

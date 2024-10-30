@@ -1,0 +1,259 @@
+/* -------- Aviation styles -------- */
+
+.divTopNavigationAviation img {
+    width: 90%;
+}
+.divTopNavigationAviation ul li a {
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.divTopNavigationAviation ul li a.active {
+    color: var(--active);
+}
+/* @media (min-width: 768px) {
+
+    .divTag {}
+} */
+.divTopContentAviation {
+    height: 795px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.divTopContentAviation .divTag {
+    position: absolute;
+    width: 70% !important;
+    max-width: fit-content;
+    margin-inline: auto;
+    text-align: left;
+    top: 30%;
+    left: 10%;
+}
+
+.divTopContentAviation .divTag p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.divTopContentAviation .divTag h2 {
+
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.divAviationVision {
+    width: 100%;
+    background: var(--active);
+    padding: 5% 0;
+    color: var(--black);
+}
+
+.divAviationVision input {
+    background-color: var(--black);
+    padding: 9px;
+    margin-right: 5px;
+    color: var(--white);
+}
+.divAviationVision div {
+    /* display: flex; */
+    width: 90%;
+    max-width: fit-content;
+    margin-inline: auto;
+    max-width: fit-content;
+    text-align: left;
+}
+
+#sectionVisionAviation {
+    margin: 5% !important;
+}
+
+#sectionVisionAviation img {
+    margin: 5% 0;
+    width: 80%;
+}
+
+.imgArrowAnim {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
+
+.divTopNavigationAviation {
+    position: fixed;
+    top: 0;
+    /* left: 1%;
+    right: 1%; */
+    /* text-align: center; */
+    /* height: 96px; */
+    background: var(--black);
+    z-index: 1;
+    vertical-align: middle;
+    width: 100%;
+    overflow: auto;
+
+}
+
+.divTopNavigationAviation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+    max-width: fit-content;
+    margin-inline: auto;
+    /* background-color: #333; */
+
+}
+
+.divTopNavigationAviation li {
+    float: left;
+    max-width: fit-content;
+    margin-inline: auto;
+    /* width: 25%; */
+    /* width: 150px; */
+
+}
+
+.divTopNavigationAviation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.divTopNavigationAviation li.active a {
+    color: var(--active) !important;
+}
+
+/* .divTopNavigationAviation li a:hover:not(.active) {
+    color: var(--active);
+  } */
+
+/* .divTopNavigationAviation li a:hover:not(.active) {
+    color: var(--active);
+  } */
+
+.txtActive {
+    color: var(--active) !important;
+}
+
+#sectionCoreAviation {
+    margin: 0 10%;
+}
+
+
+#sectionCoreAviation .core-of-our-craft {
+
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+#sectionCoreAviation .the-core-of-our-craft {
+    color: var(--primary, #2dffa4);
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#sectionCoreAviation .frame-coreouter {
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+#sectionCoreAviation .frame-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* flex-shrink: 0; */
+    position: relative;
+}
+
+#sectionCoreAviation .frame-coreinner {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    align-items: center;
+    /* justify-content: center; */
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    /* margin: 100px 0; */
+    transition: 0.5s;
+}
+
+#sectionCoreAviation .number {
+    color: var(--black-2, #1f1f1f);
+    text-align: left;
+    font-family: "BebasNeue-Regular", sans-serif;
+    font-size: 128px;
+    font-weight: 400;
+    position: relative;
+}
+
+#sectionCoreAviation .divTitle {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 500;
+    position: relative;
+    align-self: stretch;
+    line-height: normal;
+}
+
+#sectionCoreAviation .divDesc {
+    text-align: left;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* line-height: 30px; */
+    /* margin-top: 20px; */
+}
+
+#sectionCoreAviation .frame-coreinner:hover {
+    .number {
+        color: var(--active) !important;
+    }
+}
+/* @media (min-width:1120px) {
+   
+} */
+@media (min-width:768px) {
+    .sectionVisionAviation img {
+        margin: 5% 10% !important;
+        width: 80% !important;
+    }
+    .divAviationVision div{
+        width: 70%;
+    }
+}
+
+/* ------------------------------- */
