@@ -17,7 +17,7 @@
 
 .tabs-animated .nav-tabs>li {
 
-  width: 32% !important;
+  width: 30% !important;
   text-align: left !important;
   margin-right: 1%;
 }
@@ -68,6 +68,17 @@
     max-width: 48% !important;
     width: 48%;
   }
+
+}
+
+
+@media (min-width: 1120px) {
+  /* .col-sm-4 {
+    -ms-flex: 0 0 48% !important;
+    flex: 0 0 48% !important;
+    max-width: 48% !important;
+    width: 48%;
+  } */
 
   .tabs-animated .nav-tabs>li {
     width: 225px !important;

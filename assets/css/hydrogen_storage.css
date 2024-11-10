@@ -1,6 +1,5 @@
 /* --------  styles -------- */
 
-
 .divTopNavigation {
     position: fixed;
     top: 0;
@@ -8,28 +7,31 @@
     right: 1%; */
     /* text-align: center; */
     /* height: 96px; */
-    background: var(--black);
+    background: var(--bgNavH);
     z-index: 1;
     vertical-align: middle;
-    width: 100%;
+    width: 90%;
     overflow: auto;
-
+    padding: 20px 0;
+    left: 5%;
+    right: 5%;
 }
 
 .divTopNavigation ul {
     list-style-type: none;
     margin: 0;
-    padding: 20px 0;
-    max-width: fit-content;
+    width: 100%;
     margin-inline: auto;
+    align-items: center;
     /* background-color: #333; */
 
 }
 
 .divTopNavigation li {
     float: left;
-    max-width: fit-content;
+    width: 33%;
     margin-inline: auto;
+    /* margin: 0 5px; */
     /* width: 25%; */
     /* width: 150px; */
 
@@ -84,7 +86,7 @@
 }
 
 .divTopContent .divTag p {
-    font-size: 22px;
+    font-size: 20px;
     line-height: normal;
     font-family: Instrument Sans;
     font-weight: 500;
@@ -92,9 +94,9 @@
 
 .divTopContent .divTag h2 {
 
-    font-size: 32px;
+    font-size: 44px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: +600;
     line-height: normal;
     text-align: center;
 }
@@ -128,38 +130,45 @@
     font-family: Instrument Sans;
     font-weight: 400;
     text-align: left;
-    margin: 0 0 0 2rem;
+    margin: 0 0 0 3rem;
     align-self: center;
 }
 
 .divOverview .divFeatures {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5rem;
+    margin: 5rem;
 }
 
 .divFeatures .col,
 .divFeatures .colhead {
-    width: 180px;
+    width: 200px;
     height: 180px;
     text-align: center;
     align-content: center;
     margin: 1rem;
-    /* background-color: var(--bggrey); */
-    border: solid 1px var(--bggrey);
+    /* border: solid 1px var(--bggrey); */
     border-radius: 26px;
     padding: 1rem;
+
+}
+
+.divFeatures .col {
+    background-color: var(--bgNavH);
+
 }
 
 .divOverview .divFeatures .desc {
-    font-size: 16px !important;
+    font-size: 14px !important;
     font-family: Instrument Sans;
     font-weight: 400;
     z-index: 1;
+    /* color: var(--txtgrey); */
+
 }
 
 .divOverview .divFeatures h3 {
-    color: var(--txtgrey);
+    /* color: var(--txtgrey); */
     font-size: 18px !important;
     font-family: Instrument Sans;
     font-weight: 600;
@@ -179,10 +188,10 @@
 }
 
 .divFeatures .col p {
-    color: var(--txtgrey);
+    /* color: var(--txtgrey); */
     font-size: 12px !important;
     font-family: Instrument Sans;
-    font-weight: 600;
+    font-weight: normal;
     word-wrap: break-word;
     line-height: normal;
 
@@ -191,15 +200,16 @@
 .divVision {
     text-align: center;
     margin: 0 5%;
+    /* width: 90%; */
 }
 
 .divVision p {
-    text-align: center;
-    font-size: 14px;
+    text-align: center !important;
+    font-size: 20px;
 }
 
 .divVision h3 {
-    font-size: 23px;
+    font-size: 28px;
     font-weight: 600;
     line-height: normal;
     text-align: center;
@@ -216,9 +226,21 @@
 }
 
 @media (min-width:768px) {
+    .divTopNavigation ul {
+
+        max-width: fit-content;
+        margin-inline: auto;
+
+    }
+
+    .divTopNavigation li {
+        max-width: fit-content;
+        margin: 0 30px;
+    }
+
     .divTopContent .divTag {
         margin: 5% 10%;
-        top: 100px;
+        top: 150px;
         width: 80%;
     }
 
@@ -227,18 +249,148 @@
     }
 
     .divTopContent .divTag h2 {
-
-        font-size: 82px;
+        font-size: 64px;
     }
 
-    /* .sectionVision img {
-        margin: 5% 10% !important;
-        width: 80% !important;
+    .divOverview {
+        margin-top: 320px !important;
+        margin: 0 10%;
     }
 
-    .divVision div {
-        width: 70%;
-    } */
+    .divOverview .divInfo img {
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    .divOverview h2 {
+        font-size: 32px;
+    }
+
+    .divOverview .divInfo {
+        margin-top: 60px;
+    }
+
+    .divOverview .divInfo p {
+        font-size: 22px;
+        line-height: normal !important;
+    }
+
+
+    .divOverview .divFeatures {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5rem 0;
+    }
+
+    .divFeatures .col,
+    .divFeatures .colhead {
+        width: 200px;
+        height: 180px;
+    }
+
+    .divVision {
+        margin: 0 15%;
+    }
+
+    .divVision p {
+        font-size: 22px;
+    }
+
+    .divVision h3 {
+        font-size: 32px;
+        font-weight: 600;
+
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (min-width:1120px) {
+
+    .divTopNavigation li {
+        max-width: fit-content;
+        margin: 0 50px;
+    }
+
+    .divTopContent .divTag {
+        margin: 5% 10%;
+        top: 200px;
+        width: 80%;
+    }
+
+    .divTopContent .divTag p {
+        font-size: 36px;
+    }
+
+    .divTopContent .divTag h2 {
+        font-size: 64px;
+    }
+
+    .divOverview {
+        margin-top: 650px !important;
+        margin: 0 15%;
+    }
+
+    .divOverview .divInfo img {
+        width: 350px !important;
+        height: 330px !important;
+    }
+
+    .divOverview h2 {
+        font-size: 42px;
+    }
+
+    .divOverview .divInfo {
+        margin-top: 60px;
+    }
+
+
+    .divOverview .divInfo p {
+        font-size: 26px;
+        line-height: normal !important;
+    }
+
+    .divOverview .divFeatures {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10rem 0;
+    }
+
+    .divFeatures .col,
+    .divFeatures .colhead {
+        width: 280px;
+        height: 260px;
+        padding: 2rem;
+    }
+
+    .divOverview .divFeatures .desc {
+        font-size: 16px !important;
+    }
+
+    .divFeatures .col h2 {
+        font-size: 32px;
+    }
+
+    .divFeatures .col p {
+        /* color: var(--txtgrey); */
+        font-size: 16px !important;
+    }
+
+    .divVision {
+        margin: 0 20%;
+    }
+
+    .divVision p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .divVision h3 {
+        font-size: 42px;
+        font-weight: 600;
+
+        margin-bottom: 50px;
+    }
 }
 
 /* ------------------------------- */
