@@ -6,6 +6,7 @@
   width: 90% !important;
 }
 
+
 .col-sm-4 {
   margin: 1%;
 }
@@ -62,13 +63,27 @@
 
 
 @media (min-width: 768px) {
-  .col-sm-4 {
+  /* .col-sm-4 {
     -ms-flex: 0 0 48% !important;
     flex: 0 0 48% !important;
     max-width: 48% !important;
     width: 48%;
+  } */
+
+  .col-sm-4:first-child {
+    -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    width: 50% !important;
+    margin-right: 3% !important;
   }
 
+  /* .col-sm-4:last-child {
+    -ms-flex: 0 0 35% !important;
+    flex: 0 0 35% !important;
+    max-width: 35% !important;
+    width: 35% !important;
+  } */
 }
 
 

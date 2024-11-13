@@ -97,7 +97,7 @@ $("#sectionCoucouCommunity").on('mouseover', '.divImages', function () {
   var content = $(this).closest('#sectionCoucouCommunity .divImages');
   // alert(content );
 
-  if (content.hasClass('scrolling'))  content.stop();;
+  if (content.hasClass('scrolling')) content.stop();;
   var maxscroll = $(this)[0].scrollHeight
   content.animate({
     scrollTop: maxscroll
@@ -119,12 +119,22 @@ $("#sectionCoucouCommunity").on('mouseout', '.divImages', function () {
 /**
  * Handle JD load and show/hide.
  */
-function showHideJd(fileIndex) {
+function showHideJd(fileIndex, obj) {
   // if ($("#divJd" + fileIndex).html() == '') {
   //   $("#divJd" + fileIndex).load("jd" + fileIndex + ".html");
   // }
 
   $("#divJd" + fileIndex).slideToggle();
+
+
+  if (obj.classList.contains('cross')) {
+    obj.classList.remove('cross');
+    obj.classList.add('plus');
+
+  } else {
+    obj.classList.remove('plus');
+    obj.classList.add('cross');
+  }
 }
 
 function chooseProject(projectId) {

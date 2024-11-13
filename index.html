@@ -13,7 +13,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/bootstrap_custom.css">
-    <link href='https://fonts.googleapis.com/css?family=Instrument Sans' rel='stylesheet'>
+    <link
+        href='https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap%27);'
+        rel='stylesheet'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Instrument Sans' rel='stylesheet'> -->
     <!-- <link href='https://fonts.google.com/specimen/Instrument+Sans' rel='stylesheet'> -->
 
 </head>
@@ -27,7 +30,7 @@
 
         <div class="divLogo">
             <img id="logo" src="images/menon-logo.png" />
-            <span>menon and menon ltd</span>
+            <label>menon and menon ltd</label>
         </div>
 
         <!-- <button id="menu-toggle">
@@ -60,18 +63,14 @@
 
                     <div class="col-sm-4">
 
-                        <p>Building on over 6 Decades of excellence in Niche automotive castings and world-class
-                            manufacturing, Menon and Menon Ltd is now expanding our expertise to new horizons—developing
-                            next-generation general aircraft, seamless user experience apps, Green Energy and many more.
+                        <p>Building on over 6 Decades of excellence in niche automotive castings and world-class precision manufacturing, Menon and Menon Ltd. is expanding its expertise into new frontiers. We are now developing next-generation general aviation aircraft, creating intuitive user experience applications, advancing green energy solutions, and more.
                         </p>
 
                     </div>
 
                     <div class="col-sm-4">
 
-                        <p>With our commitment to innovation, quality, and a passionate team, we’re ready to soar into
-                            the
-                            future.</p>
+                        <p>Driven by our commitment to innovation, quality, and sustainability, we are ready to reach new heights and shape the future.</p>
                     </div>
 
                 </div>
@@ -92,27 +91,27 @@
                 <!-- Nav tabs -->
                 <ul id="tabProjects" class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active" tag="aviation">
-                        <a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab" >Next - Generation
+                        <a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Next - Generation
                             General Aviation</a>
                         <hr align="left">
                     </li>
                     <li role="presentation" tag="coucou">
-                        <a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab" >CouCou!
+                        <a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">CouCou!
                             Culinary Empowerment.</a>
                         <hr align="left">
                     </li>
                     <li role="presentation" tag="h2storage">
-                        <a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab" >Green Energy -
+                        <a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Green Energy -
                             Hydrogen Storage</a>
                         <hr align="left">
-                        
+
                         <!-- onclick="javascript:chooseProject(3)" -->
                     </li>
                 </ul>
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade in active" id="tab1" >
+                    <div role="tabpanel" class="tab-pane fade in active" id="tab1">
                         <img src="images/imgAvaition.png" class="imgLandscape" />
                         <p>A project redefining personal aviation, with a focus on safety, improved efficiency, and
                             universal accessibility.</p>
@@ -131,9 +130,9 @@
 
                     </div>
                 </div>
-                <div class="textAlignLeft">
-                    <a href="javascript:void(0)" onclick="javascript:openSitePage()" aria-controls="tab1" class="btnLink" role="button">Visit
-                        Site <img src="images/rightarrow.png" width="7" /> </a>
+                <div class="divVisitSite">
+                    <a href="javascript:void(0)" onclick="javascript:openSitePage()" aria-controls="tab1"
+                        class="btnLink" role="button">Visit Site <img src="images/rightarrow.png" width="12" /> </a>
                 </div>
 
             </div>
@@ -161,7 +160,8 @@
             </p>
 
             <div class="image-wrapper">
-                <div id="img1"><span class="spnactive" /></span><img src="images/imgmission1.png" class="imgAnimated1" />
+                <div id="img1"><span class="spnactive" /></span><img src="images/imgmission1.png"
+                        class="imgAnimated1" />
                 </div>
                 <div id="img2"><span class="spnactive"></span><img src="images/imgmission2.png" class="imgAnimated2" />
                 </div>
@@ -176,27 +176,27 @@
                 <h2>Browse <span class="txtActive">3</span> open positions</h2>
 
                 <div>
-                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('1')" />
+                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('1',this)" class="plus"/>
                         Product
                         Manager |
                         Mumbai/Kolhapur.</p>
                     <div id="divJd1" class="jd"></div>
                 </div>
                 <div>
-                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('2')" />
+                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('2',this)" class="plus"/>
                         Manager
                         –Strategy
                         | Mumbai / Kolhapur</p>
                     <div id="divJd2" class="jd"></div>
                 </div>
                 <div>
-                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('3')" />
+                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('3',this)" class="plus"/>
                         Marketing Manager
                         | Mumbai / Kolhapur</pl̥>
                     <div id="divJd3" class="jd"></div>
                 </div>
 
-                <p class="marginTop20">Show More <img src="images/down_arrow.png" /></p>
+                <div class="divShowMore"><label>Show More</label> <img src="images/down_arrow.png" /></div>
 
             </div>
 

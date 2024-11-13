@@ -2,6 +2,7 @@
     --active: #2DFFA4;
     --white: #FFFFFF;
     --black: #0C0C0C;
+    --black1: #111111;
     --bgcolor: #0C0C0C;
     --bgnav: #242424;
     --bggrey: #858585;
@@ -90,8 +91,8 @@ h6 {
     position: fixed;
     /* width: 20px; */
     /* height: 20px; */
-    top: 50px;
-    right: 30px;
+    top: 90px;
+    right: 50px;
     z-index: 1000;
     transition-duration: 0.5s;
     transition-property: transform;
@@ -243,6 +244,10 @@ p {
     width: 100%;
 }
 
+#aboutus p {
+    font-size: 16px !important;
+}
+
 .bgYellow {
     background-color: var(--active);
     width: 2px;
@@ -326,11 +331,22 @@ p {
 }
 
 .tab-content p {
-    margin-top: 10px !important;
+    margin-top: 25px !important;
     font-size: 20px;
     font-family: Instrument Sans;
     font-weight: 500;
     line-height: normal;
+}
+
+.divVisitSite {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.divVisitSite img {
+    margin-left: 10px;
+    padding: 0;
+    margin-bottom: 2px;
 }
 
 .textAlignLeft {
@@ -360,9 +376,21 @@ p {
 
 }
 
+.divInternal h2 {
+    font-size: 48px;
+    font-weight: 500;
+    width: 80%;
+}
+
+.divPositions h2 {
+    font-size: 48px;
+    font-weight: 500;
+    width: 60%;
+}
+
 .image-wrapper {
     /* margin: 80px 0 0 20%; */
-    margin: 100px 10% 0 10%;
+    margin: 100px 15px 0 0;
 
     flex-shrink: 0;
     text-align: left;
@@ -385,24 +413,24 @@ p {
     transform: translateY(0);
     z-index: 1;
     position: relative;
-    left: 42%;
+    left: 130px;
     top: -75px !important;
 }
 
 .imgAnimated1,
 .imgAnimated2 {
-    margin-top: -50px;
-    margin-left: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 .imgAnimated1 {
-    Width: 302px;
-    height: 184px;
+    Width: 230px;
+    height: 180px;
 }
 
 .imgAnimated2 {
-    Width: 204px;
-    height: 232px;
+    Width: 205px;
+    height: 182px;
 }
 
 
@@ -423,16 +451,64 @@ p {
 }
 
 .txtPositions {
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 400;
     color: var(--active);
+    text-align: left !important;
 }
 
 .divPositions img {
     margin-bottom: 5px;
+    margin-right: 10px;
 }
+
+/* .divPositions img.plus {
+  
+    transform: rotate(+45deg);
+    -webkit-transform: rotate(+45deg);
+} */
+
+.divPositions img.cross {
+    /* background-color: #007BFF; */
+
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.divPositions img {
+    /* background-color: #333; */
+    color: var(--white);
+    /* padding: 10px; */
+    border: none;
+    cursor: pointer;
+    /* width: 20px; */
+    /* height: 20px; */
+    /* top: 50px;
+    right: 30px; */
+    z-index: 1000;
+    transition-duration: 0.5s;
+    transition-property: transform;
+}
+
 
 .divPositions .jd {
     display: none;
+}
+
+.divShowMore {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.divShowMore label {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.divShowMore img {
+    margin-top: 8px;
+    width: 14px;
+    margin-left: 5px
 }
 
 button {
@@ -466,8 +542,22 @@ button {
     height: 42px;
     margin: 15px 10px;
     /* margin-bottom: 10px; */
+
 }
 
+.divFooter label {
+    color: var(--white);
+
+}
+
+.divFooter label:hover {
+    color: var(--active);
+}
+
+.divLogo label {
+    font-size: 20px;
+    font-weight: 600;
+}
 
 label {
     font-size: 24px;
@@ -500,9 +590,57 @@ label {
     color: var(--yellow);
 }
 
+.divJD {
+    text-align: left;
+    margin-bottom: 50px;
+}
 
+.divJD article,
+.divJD ul li {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.divJD h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--active);
+}
+
+.divJD button {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: auto;
+
+}
+
+.divJD button img {
+    margin-left: 10px;
+    height: 18px;
+}
+
+
+.divJD .btnShare {
+    color: var(--white);
+
+    background: transparent;
+    border: 0;
+}
+
+.divJD .btnApply {
+    background: var(--active);
+    color: var(--black1);
+}
 
 @media (min-width:768px) {
+    #menu-toggle {
+        right: 10px !important;
+    }
 
     #aboutus h1 {
         width: 70%;
@@ -517,20 +655,20 @@ label {
         margin-top: 0;
         margin-left: 0;
     }
-    
+
     .imgAnimated1 {
-        Width: 452px;
-        height: 334px;
+        Width: 352px;
+        height: 234px;
     }
 
     .imgAnimated2 {
-        Width: 354px;
-        height: 382px;
+        Width: 254px;
+        height: 282px;
     }
 
 
     #img2 {
-        left: 35% !important;
+        left: 265px !important;
 
         /* left: 60% !important;
         top: -105px !important; */
@@ -542,9 +680,9 @@ label {
     }
 
     .divPositions {
-        width: 80%;
+        width: 60%;
         text-align: center;
-        margin: 0 10% 0 20% !important;
+        margin: 0 20% 0 20% !important;
     }
 
     .homePage {
@@ -572,7 +710,8 @@ label {
     }
 
     #img2 {
-        left: 35% !important;
+        left: 335px !important;
+        top: -100px !important;
     }
 }
 

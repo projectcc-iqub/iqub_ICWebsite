@@ -39,7 +39,7 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 20px;
     text-decoration: none;
     font-size: 16px;
     font-style: normal;
@@ -47,9 +47,11 @@
     text-transform: uppercase;
 
 }
+
 .divTopNavigationAviation img {
     width: 90%;
 }
+
 .divTopNavigationAviation ul li a {
     color: var(--white);
     text-decoration: none;
@@ -64,6 +66,7 @@
 .divTopNavigationAviation ul li a.active {
     color: var(--active);
 }
+
 /* @media (min-width: 768px) {
 
     .divTag {}
@@ -77,19 +80,19 @@
 
 .divTopContentAviation .divTag {
     position: absolute;
-    width: 70% !important;
+    width: 55% !important;
     max-width: fit-content;
     margin-inline: auto;
     text-align: left;
-    top: 30%;
-    left: 10%;
+    top: 40%;
+    left: 20%;
 }
 
-.divTopContentAviation .divTag p {
+.divTopContentAviation .divTag label {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .divTopContentAviation .divTag h2 {
@@ -113,17 +116,32 @@
     margin-right: 5px;
     color: var(--white);
 }
-.divAviationVision div {
+
+.divAviationVision h1 {
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.divAviationVision p {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center !important;
+    color: #111111;
+}
+
+.divAviationVision div:first-child {
     /* display: flex; */
     width: 90%;
     max-width: fit-content;
     margin-inline: auto;
     max-width: fit-content;
     text-align: left;
+    text-align: center;
 }
 
 #sectionVisionAviation {
-    margin: 5% !important;
+    margin: 10% 0 100px !important;
 }
 
 #sectionVisionAviation img {
@@ -231,16 +249,18 @@
         color: var(--active) !important;
     }
 }
+
 /* @media (min-width:1120px) {
    
 } */
 @media (min-width:768px) {
     .sectionVisionAviation img {
         margin: 5% 10% !important;
-        width: 80% !important;
+        width: 70% !important;
     }
-    .divAviationVision div{
-        width: 70%;
+
+    .divAviationVision div:first-child {
+        width: 45%;
     }
 }
 
