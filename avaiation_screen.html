@@ -24,18 +24,23 @@
 
 </head>
 
-<body>
+<body id="scroller">
 
     <div class="divTopNavigationAviation">
         <ul>
-            <li><a href="#sectionTopContentAviation" class="aviation-nav-link active">Home</a></li>
+            <li><a href="#sectionTopContentAviation" class="nav-link active">Home</a></li>
+            <li><a href="#sectionVisionAviation" class="nav-link">our vision</a></li>
+            <li><a href="#sectionCoreAviation" class="nav-link">our core</a></li>
+            <li><a href="#sectionAboutUsAviation" class="nav-link">About US</a></li>
+
+            <!-- <li><a href="#sectionTopContentAviation" class="aviation-nav-link active">Home</a></li>
             <li><a href="#sectionVisionAviation" class="aviation-nav-link">our vision</a></li>
             <li><a href="#sectionCoreAviation" class="aviation-nav-link">our core</a></li>
-            <li><a href="#sectionAboutUsAviation" class="aviation-nav-link">About US</a></li>
+            <li><a href="#sectionAboutUsAviation" class="aviation-nav-link">About US</a></li> -->
         </ul>
     </div>
 
-    <div id="divTopContentAviation" class="divTopContentAviation">
+    <section id="sectionTopContentAviation" class="divTopContentAviation">
         <img src="images/aviation/avaition_header.png" class="imgLandscape" />
 
         <div class="divTag">
@@ -44,7 +49,7 @@
         </div>
         <img src="/images/doubledownarrow.png" class="imgArrowAnim" />
 
-    </div>
+    </section>
     <section id="sectionVisionAviation">
         <div class="divAviationVision">
             <div>
@@ -134,6 +139,8 @@
 
 
     <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/navigation.js"></script>
+
     <script>
 
         $("#divFooter").load("screens/footer.html");

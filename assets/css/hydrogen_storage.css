@@ -70,7 +70,7 @@
     .divTag {}
 } */
 .divTopContent {
-    height: 300px;
+    /* height: 300px; */
     width: 100%;
     vertical-align: middle;
     text-align: center;
@@ -90,6 +90,7 @@
     line-height: normal;
     font-family: Instrument Sans;
     font-weight: 500;
+    text-align: center !important;
 }
 
 .divTopContent .divTag h2 {
@@ -253,7 +254,7 @@
     }
 
     .divOverview {
-        margin-top: 320px !important;
+        margin-top: 125px !important;
         margin: 0 10%;
     }
 
@@ -327,7 +328,7 @@
     }
 
     .divOverview {
-        margin-top: 650px !important;
+        margin-top: 160px !important;
         margin: 0 15%;
     }
 

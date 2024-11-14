@@ -21,7 +21,7 @@
 
 </head>
 
-<body>
+<body id="scroller">
 
     <div class="homePage">
         <!-- Button to toggle navigation -->
@@ -48,7 +48,7 @@
             <ul id="nav-ul-2" class="">Culture & Jobs
 
                 <li><a href="#ourTeam" class="nav-link" tag="2">Our Team</a></li>
-                <li><a href="#culture" class="nav-link" tag="2">Culture</a></li>
+                <!-- <li><a href="#culture" class="nav-link" tag="2">Culture</a></li> -->
                 <li><a href="#jobs" class="nav-link" tag="2">Jobs</a></li>
             </ul>
         </nav>
@@ -63,14 +63,18 @@
 
                     <div class="col-sm-4">
 
-                        <p>Building on over 6 Decades of excellence in niche automotive castings and world-class precision manufacturing, Menon and Menon Ltd. is expanding its expertise into new frontiers. We are now developing next-generation general aviation aircraft, creating intuitive user experience applications, advancing green energy solutions, and more.
+                        <p>Building on over 6 Decades of excellence in niche automotive castings and world-class
+                            precision manufacturing, Menon and Menon Ltd. is expanding its expertise into new frontiers.
+                            We are now developing next-generation general aviation aircraft, creating intuitive user
+                            experience applications, advancing green energy solutions, and more.
                         </p>
 
                     </div>
 
                     <div class="col-sm-4">
 
-                        <p>Driven by our commitment to innovation, quality, and sustainability, we are ready to reach new heights and shape the future.</p>
+                        <p>Driven by our commitment to innovation, quality, and sustainability, we are ready to reach
+                            new heights and shape the future.</p>
                     </div>
 
                 </div>
@@ -149,26 +153,37 @@
                 a
                 lasting impact.</p>
             <img src="images/imgTeam.png" class="imgLandscape" />
-        </section>
 
 
-        <section id="culture" class="divInternal">
-            <h6>MISSION</h6>
-            <p>Combining creativity and expertise, we tackle today’s challenges with impactful solutions. We lead
-                with
-                integrity and innovation, offering sustainable, empowering approaches that drive a positive change.
-            </p>
+             <div class="divInternal"> <!--id="culture"  -->
+                <h6>MISSION</h6>
+                <p>Combining creativity and expertise, we tackle today’s challenges with impactful solutions. We lead
+                    with
+                    integrity and innovation, offering sustainable, empowering approaches that drive a positive change.
+                </p>
 
-            <div class="image-wrapper">
+                <div class="image-stack">
+                    <div id="img1" class="image-stack__item image-stack__item--top">
+                        <!-- <span class="spnactive" /></span> -->
+                        <img src="images/imgmission1.png" alt="" class="imgAnimated1">
+                    </div>
+                    <div id="img2" class="image-stack__item image-stack__item--bottom">
+                        <!-- <span class="spnactive" /></span> -->
+                        <img src="images/imgmission2.png" alt="" class="imgAnimated2">
+                    </div>
+                </div>
+
+                <!-- <div class="image-wrapper">
                 <div id="img1"><span class="spnactive" /></span><img src="images/imgmission1.png"
                         class="imgAnimated1" />
                 </div>
                 <div id="img2"><span class="spnactive"></span><img src="images/imgmission2.png" class="imgAnimated2" />
                 </div>
-            </div>
+            </div> -->
 
-            <h2>We're on the lookout for <span class="txtActive"> talented individuals </span> to join our dynamic
-                dream!</h2>
+                <h2>We're on the lookout for <span class="txtActive"> talented individuals </span> to join our dynamic
+                    dream!</h2>
+            </div>
         </section>
 
         <section id="jobs">
@@ -176,21 +191,24 @@
                 <h2>Browse <span class="txtActive">3</span> open positions</h2>
 
                 <div>
-                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('1',this)" class="plus"/>
+                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('1',this)"
+                            class="plus" />
                         Product
                         Manager |
                         Mumbai/Kolhapur.</p>
                     <div id="divJd1" class="jd"></div>
                 </div>
                 <div>
-                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('2',this)" class="plus"/>
+                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('2',this)"
+                            class="plus" />
                         Manager
                         –Strategy
                         | Mumbai / Kolhapur</p>
                     <div id="divJd2" class="jd"></div>
                 </div>
                 <div>
-                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('3',this)" class="plus"/>
+                    <p class="txtPositions"><img src="images/vector.png" onclick="javascript:showHideJd('3',this)"
+                            class="plus" />
                         Marketing Manager
                         | Mumbai / Kolhapur</pl̥>
                     <div id="divJd3" class="jd"></div>
@@ -209,6 +227,7 @@
 
     </div>
     <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/navigation.js"></script>
     <script>
         $("#divJd1").load("screens/jd1.html");
         $("#divJd2").load("screens/jd2.html");
