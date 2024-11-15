@@ -1,6 +1,5 @@
 /* -------- Aviation styles -------- */
 
-
 .divTopNavigationAviation {
     position: fixed;
     top: 0;
@@ -76,7 +75,8 @@
     width: 100%;
     vertical-align: middle;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 58px;
+    padding-top: 0;
 }
 
 .divTopContentAviation .divTag {
@@ -142,7 +142,7 @@
 }
 
 #sectionVisionAviation {
-    margin: 10% 0 100px !important;
+    margin: 0 0 100px !important;
 }
 
 #sectionVisionAviation img {

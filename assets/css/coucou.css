@@ -79,6 +79,12 @@
     padding: 5px 7px 10px;
 }
 
+.divCoucouHeader p:last-child {
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
 #sectionCoucouTag h2 {
 
     text-align: center;
@@ -220,15 +226,6 @@
     width: 50%;
 }
 
-.divIcons img {
-    width: 103px;
-    height: 100px;
-    margin: 0.5rem;
-    border: solid 1px;
-    padding: 15px;
-    border-radius: 20px;
-    border-color: var(--yellow);
-}
 
 .divIcons .col1 {
     margin-top: 5rem !important;
@@ -237,15 +234,39 @@
 /* .divIcons .col2 img:last-child {
     margin-top: -9rem !important;
 } */
-.divIcons .col1 img:first-child {
+.divIcons .col1 .divIc:first-child {
     border-color: var(--pink) !important;
-    /* margin-top: 10rem !important; */
-
 }
 
-.divIcons .col2 img:last-child {
+.divIcons .col2 .divIc:last-child {
     border-color: var(--pink) !important;
     /* margin-top: 5rem; */
+}
+
+.divIcons img {
+    width: 70%;
+    object-fit: fill;
+}
+
+.divIcons .divIc {
+    /* width: 103px;
+    height: 100px; */
+    width: 180px;
+    height: 175px;
+    margin: 0.5rem;
+    border: solid 1px;
+    padding: 25px 10px;
+    border-radius: 20px;
+    border-color: var(--yellow);
+    float: left;
+}
+
+.divIcons .divIc p {
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 30px;
+    text-wrap: nowrap;
 }
 
 .divInfo h3,
@@ -369,16 +390,20 @@
     #sectionGamesRewards {
         display: flex;
         flex-direction: row;
+        margin-right: 1%;
         /* margin-left: 15%; */
     }
 
-    .divIcons img {
+    /* .divIcons img {
         width: 200px;
         height: 197px;
-    }
+    } */
 
-    #sectionGamesRewards {
-        margin-right: 1%;
+    .divIcons .divIc {
+        /* width: 103px;
+        height: 100px; */
+        width: 220px;
+        height: 215px;
     }
 
     .divInfo img {
@@ -398,10 +423,10 @@
     #sectionNewsAndBlogs .divImages img:last-child {
         height: 180px;
     }
-    
-.imgStore {
-    width: 400px;
-}
+
+    .imgStore {
+        width: 400px;
+    }
 }
 
 @media (min-width:1120px) {
@@ -454,9 +479,15 @@
         margin-left: 10%;
     }
 
-    .divIcons img {
+    /* .divIcons img {
         width: 200px;
         height: 197px;
+    } */
+    .divIcons .divIc {
+        /* width: 103px;
+        height: 100px; */
+        width: 220px;
+        height: 215px;
     }
 
     #sectionGamesRewards {
