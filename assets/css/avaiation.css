@@ -57,13 +57,14 @@
     display: block;
     font-size: 16px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: normal;
 }
 
 
 .divTopNavigationAviation ul li a.active {
     color: var(--active);
+    font-weight: 600;
 }
 
 /* @media (min-width: 768px) {
@@ -121,13 +122,17 @@
 .divAviationVision h1 {
     font-size: 48px;
     font-weight: 500;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.divAviationVision div {
+    text-align: left !important;
 }
 
 .divAviationVision p {
     font-size: 24px;
     font-weight: 400;
-    text-align: center !important;
+    /* text-align: center !important; */
     color: #111111;
 }
 
@@ -269,7 +274,7 @@
     }
 
     .divAviationVision div:first-child {
-        width: 45%;
+        width: 60%;
     }
 
     #sectionCoreAviation .divTitle {

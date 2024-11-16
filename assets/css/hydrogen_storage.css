@@ -10,11 +10,11 @@
     background: var(--bgNavH);
     z-index: 1;
     vertical-align: middle;
-    width: 90%;
+    width: 100%;
     overflow: auto;
     padding: 20px 0;
-    left: 5%;
-    right: 5%;
+    /* left: 5%;
+    right: 5%; */
 }
 
 .divTopNavigation ul {
@@ -76,6 +76,11 @@
     text-align: center;
     /* position: relative; */
     /* justify-content: center; */
+    padding-top: 0;
+}
+
+.divTopContent .imgLandscape{
+    margin-top: 0;
 }
 
 .divTopContent .divTag {
@@ -127,10 +132,10 @@
 
 .divOverview .divInfo p {
     display: flex;
-    font-size: 16px;
+    font-size: 24px;
     font-family: Instrument Sans;
     font-weight: 400;
-    text-align: left;
+    text-align: left !important;
     margin: 0 0 0 3rem;
     align-self: center;
 }
@@ -138,7 +143,9 @@
 .divOverview .divFeatures {
     display: flex;
     flex-wrap: wrap;
-    margin: 5rem;
+    margin: 5rem 0;
+    align-items: center;
+    justify-content: center;
 }
 
 .divFeatures .col,
@@ -160,7 +167,7 @@
 }
 
 .divOverview .divFeatures .desc {
-    font-size: 14px !important;
+    font-size: 16px !important;
     font-family: Instrument Sans;
     font-weight: 400;
     z-index: 1;
@@ -170,7 +177,7 @@
 
 .divOverview .divFeatures h3 {
     /* color: var(--txtgrey); */
-    font-size: 18px !important;
+    font-size: 26px !important;
     font-family: Instrument Sans;
     font-weight: 600;
     word-wrap: break-word;
@@ -179,7 +186,7 @@
 }
 
 .divFeatures .col h2 {
-    font-size: 16px;
+    font-size: 26px;
     font-family: Instrument Sans;
     font-weight: 600;
     line-height: normal;
@@ -195,6 +202,7 @@
     font-weight: normal;
     word-wrap: break-word;
     line-height: normal;
+    text-align: left !important;
 
 }
 
@@ -206,15 +214,16 @@
 
 .divVision p {
     text-align: center !important;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .divVision h3 {
-    font-size: 28px;
+    font-size: 43px;
     font-weight: 600;
     line-height: normal;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .divVision button {
@@ -271,18 +280,10 @@
         margin-top: 60px;
     }
 
-    .divOverview .divInfo p {
+    /* .divOverview .divInfo p {
         font-size: 22px;
         line-height: normal !important;
-    }
-
-
-    .divOverview .divFeatures {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 5rem 0;
-    }
-
+    } */
     .divFeatures .col,
     .divFeatures .colhead {
         width: 200px;
@@ -293,16 +294,16 @@
         margin: 0 15%;
     }
 
-    .divVision p {
+    /* .divVision p {
         font-size: 22px;
-    }
-
+    } */
+/* 
     .divVision h3 {
         font-size: 32px;
         font-weight: 600;
 
         margin-bottom: 50px;
-    }
+    } */
 }
 
 
@@ -346,10 +347,10 @@
     }
 
 
-    .divOverview .divInfo p {
+    /* .divOverview .divInfo p {
         font-size: 26px;
         line-height: normal !important;
-    }
+    } */
 
     .divOverview .divFeatures {
         display: flex;
@@ -381,17 +382,17 @@
         margin: 0 20%;
     }
 
-    .divVision p {
+    /* .divVision p {
         font-size: 24px;
         text-align: center;
-    }
+    } */
 
-    .divVision h3 {
+    /* .divVision h3 {
         font-size: 42px;
         font-weight: 600;
 
         margin-bottom: 50px;
-    }
+    } */
 }
 
 /* ------------------------------- */
