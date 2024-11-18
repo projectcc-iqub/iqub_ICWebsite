@@ -91,7 +91,7 @@
 }
 
 .divTopContent .divTag p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: normal;
     font-family: Instrument Sans;
     font-weight: 500;
@@ -100,7 +100,7 @@
 
 .divTopContent .divTag h2 {
 
-    font-size: 44px;
+    font-size: 32px;
     font-style: normal;
     font-weight: +600;
     line-height: normal;
@@ -113,7 +113,7 @@
 }
 
 .divOverview h2 {
-    font-size: 23px;
+    font-size: 20px;
     line-height: normal;
     text-align: center;
 
@@ -215,12 +215,12 @@
 
 .divVision p {
     text-align: center !important;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 18px;
+    /* font-weight: 600; */
 }
 
 .divVision h3 {
-    font-size: 43px;
+    font-size: 32px;
     font-weight: 600;
     line-height: normal;
     text-align: center;
